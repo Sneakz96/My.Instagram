@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/posts.js"></script>
+    <script src="js/template.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/21eb871b7e.js" crossorigin="anonymous"></script>
+    <title>My.Instagram</title>
+    <link rel="icon" type="image/png" href="icons/favicon.png">
+</head>
+
+<body onload="renderContent()">
+    <div class="header">
+        <div class="logo">
+            <a href="#"><img src="img/735145cfe0a4.png"></a>
+        </div>
+        <div class="search">
+            <img class="searchIt" src="icons/search-3-32.png" onclick="search()">
+            <input type="text" class="searchbar" id="inputText" placeholder="Suchen">
+        </div>
+        <div class="header-links">
+            <a href="#" onclick="notIncluded()"><img src="icons/home-7-32.png"></a>
+            <a href="#" onclick="notIncluded()"><img src="icons/speech-bubble-32.png"></a>
+            <a href="#" onclick="notIncluded()"><img src="icons/add-32.png"></a>
+            <a href="#" onclick="notIncluded()"><img src="icons/compass-3-32.png"></a>
+            <a href="#" onclick="notIncluded()"><img src="icons/favorite-2-32.png"></a>
+            <a href="#" onclick="notIncluded()"><img class="proposalsPic" src="img/me.jpeg"></a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="content">
+            <div class="storys">
+                <div class="story">
+                    <img src="img/me.jpeg" class="story-pic" onclick="notIncluded()">
+                    <a href="#" onclick="notIncluded()">Green</a>
+                </div>
+                <div class="story">
+                    <img src="img/me.jpeg" class="story-pic" onclick="notIncluded()">
+                    <a href="#" onclick="notIncluded()">Montain</a>
+                </div>
+                <div class="story">
+                    <img src="img/me.jpeg" class="story-pic" onclick="notIncluded()">
+                    <a href="#" onclick="notIncluded()">Ptri3</a>
+                </div>
+                <div class="story">
+                    <img src="img/me.jpeg" class="story-pic" onclick="notIncluded()">
+                    <a href="#" onclick="notIncluded()">Bakin</a>
+                </div>
+                <div class="story">
+                    <img src="img/me.jpeg" class="story-pic" onclick="notIncluded()">
+                    <a href="#" onclick="notIncluded()">TaV79</a>
+                </div>
+            </div>
+            <div class="posts" id="posts">
+
+            </div>
+        </div>
+
+
+
+        <div class="side-bar">
+            <div class="profile">
+                <img class="profilepic" src="img/me.jpeg">
+                <div class="igname">jahleel.rh<div class="name">Jahleel Heider</div>
+                </div>
+                <div class="change" onclick="notIncluded()">Wechseln</div>
+            </div>
+            <div class="proposals">
+                <div>Vorschläge für dich</div>
+                <div class="hover" onclick="notIncluded()">View all</div>
+            </div>
+            <br>
+            <div class="profile">
+                <img class="proposalsPic" src="img/me.jpeg">
+                <div class="igname">jahleel.96
+                    <div class="name">Neu bei Instagram</div>
+                </div>
+                <div class="change" onclick="notIncluded()">Folgen</div>
+            </div>
+            <div class="profile">
+                <img class="proposalsPic" src="img/me.jpeg">
+                <div class="igname">howToCook
+                    <div class="name">Vorschläge für dich</div>
+                </div>
+                <div class="change" onclick="notIncluded()">Folgen</div>
+            </div>
+            <div class="profile">
+                <img class="proposalsPic" src="img/me.jpeg">
+                <div class="igname">howToProgram
+                    <div class="name">Neu bei Instagram</div>
+                </div>
+                <div class="change" onclick="notIncluded()">Folgen</div>
+            </div>
+            <br>
+            <div class="side-bar-links">
+                <a href="#" onclick="notIncluded()">Info</a> •
+                <a href="#" onclick="notIncluded()">Hilfe</a> •
+                <a href="#" onclick="notIncluded()">Presse</a> •
+                <a href="#" onclick="notIncluded()">API</a> •
+                <a href="#" onclick="notIncluded()">Jobs</a> •
+                <a href="#" onclick="notIncluded()">Datenrichtlinie</a> •
+                <a href="#" onclick="notIncluded()">Impressum/Nutzungbedingungen/NetzDG/UrhDaG</a> •
+                <a href="#" onclick="notIncluded()">Standorte</a> •
+                <a href="#" onclick="notIncluded()">Top-Konten</a> •
+                <a href="#" onclick="notIncluded()">Hashtags</a> •
+                <a href="#" onclick="notIncluded()">Sprache</a> <br>
+                <br>
+                <p>© 2022 INSTAGRAM FROM META</p>
+                <a href="https://www.flaticon.com/de/kostenlose-icons/logo" title="logo Icons">Logo Icons erstellt von
+                    Freepik - Flaticon</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

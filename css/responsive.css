@@ -1,0 +1,37 @@
+@media(max-width: 1000px){
+    .logo img{
+    margin: 5px !important;
+    margin-right: 25px !important;
+    }
+    .header-links{
+        gap: 10px;
+    }
+    .side-bar{
+        display: none;
+    }
+    .img{
+        width: 200px;
+    }
+    .commentBox{
+        width: 70% !important;
+    }
+    .new-post{
+        max-width: 380px;
+    }
+    .storys{
+        max-width: 380px;
+        height: 80px;
+    }
+    .story-pic{
+        height: 30px;
+        width: 30px;
+    }
+}
+@media(max-width: 640px){
+    .searchbar{
+        display: none;
+    }
+    .searchIt{
+        display: none;
+    }
+}
